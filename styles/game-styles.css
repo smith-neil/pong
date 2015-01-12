@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+.game-prototype {
+  display: -webkit-flex;
+  display: flex; 
+  -webkit-box-flex-direction: row;
+  -moz-box-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.game-prototype > .game-title {
+  margin: auto;
+}
+
+.game-prototype > .game-rectangle {
+  width: 720px;
+  height: 480px;
+  margin: auto;
+}
+
+.game-prototype > .game-square {
+  width: 720px;
+  height: 720px;
+  margin: auto;
+}
+
+.game-rectangle > *, 
+.game-square > * {
+  width: 100%;
+  height: 100%;
+}
+
+.game-prototype > .game-description {
+  margin: auto;
+  padding: 15px;
+}
+
+.game-prototype .background-black {
+  background-color: black;
+}
